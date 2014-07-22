@@ -81,14 +81,9 @@ ActiveRecord::Schema.define(version: 20140324234115) do
     t.datetime "updated_at"
   end
 
-<<<<<<< HEAD
   add_index "relationships", ["followed_id"], name: "index_relationships_on_followed_id", using: :btree
   add_index "relationships", ["follower_id", "followed_id"], name: "index_relationships_on_follower_id_and_followed_id", unique: true, using: :btree
   add_index "relationships", ["follower_id"], name: "index_relationships_on_follower_id", using: :btree
-=======
-  add_index "relationships", ["followed_id"], name: "index_relationships_on_followed_id"
-  add_index "relationships", ["follower_id", "followed_id"], name: "index_relationships_on_follower_id_and_followed_id", unique: true
-  add_index "relationships", ["follower_id"], name: "index_relationships_on_follower_id"
->>>>>>> cf6370fb47a20b85f9da5cd3727375dfc6748ed3
+
 
 end

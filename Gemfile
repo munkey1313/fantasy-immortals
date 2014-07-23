@@ -12,6 +12,7 @@ group :production do
      
 end
 
+gem 'pg'
 
 gem 'rails_12factor'
 

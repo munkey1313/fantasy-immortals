@@ -12,10 +12,10 @@ group :production do
      
 end
 
-gem 'pg'
+
 gem 'rails_12factor'
 
-gem 'sqlite3'
+
 gem 'protected_attributes'
 
 gem 'mysql2'
